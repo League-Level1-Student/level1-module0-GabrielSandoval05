@@ -33,7 +33,7 @@ JPanel panel = new JPanel ();
 		// 6. Create and initialize an object of the JLabel class
 JLabel label = new JLabel ();
 		// 7. Set the text of the JLabel to a lovely greeting.
-label.setText("Greetings! How are you on this fine day?");
+label.setText("Greetings! How are you on this fine day? I love java");
 		// 8. Add the JPanel object to the JFrame
 frame.add(panel);
 		// 9. Add the JLabel object to the JPanel
@@ -44,6 +44,7 @@ frame.pack();
 
 		// 12. Use the loadImage method to set the icon of the JLabel object.
 loadImage();
+label.setIcon(loadImage());
 		// 13. Re-pack the JFrame object.
 frame.pack();
 		// 14. Run the program one more time. Do you see the image?
