@@ -70,18 +70,20 @@ else {
 }
 		// 7. Use the showNextImage() method below to get the next image
 		showNextImage();
+		String answer = JOptionPane.showInputDialog("who is this?");
 //MAKE DIFFERENT JOPTIONS FOR EACH PICTURE
 		// 8. .... repeat 4-7 for all your images.....
-		if(guess.equalsIgnoreCase("leonardo")) {
+		if(answer.equalsIgnoreCase("leonardo")) {
 			JOptionPane.showMessageDialog(null, "correct");
 			score++;
 		}
 				
 		else {
-			JOptionPane.showMessageDialog(null, "wrong it is leonardo di cappuccino");
+			JOptionPane.showMessageDialog(null, "wrong it is leonardo dicappuccino");
 		}
 		showNextImage();
-		if(guess.equalsIgnoreCase("morgan")) {
+		String response = JOptionPane.showInputDialog("who is this?");
+		if(response.equalsIgnoreCase("morgan")) {
 			JOptionPane.showMessageDialog(null, "correct");
 			score++;
 		}
@@ -90,7 +92,8 @@ else {
 			JOptionPane.showMessageDialog(null, "wrong it is Morgan");
 		}
 		showNextImage();
-		if(guess.equalsIgnoreCase("Jack")) {
+		String quiz = JOptionPane.showInputDialog("who is this?");
+		if(quiz.equalsIgnoreCase("Jack")) {
 			JOptionPane.showMessageDialog(null, "correct");
 			score++;
 		}
