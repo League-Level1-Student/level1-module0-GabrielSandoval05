@@ -29,6 +29,22 @@ public class fortuneCookie implements ActionListener {
 		JOptionPane.showMessageDialog(null, "Woo-HOO!");
 		int random = new Random().nextInt(5);
 		System.out.println(random);
+		if(random==0) {
+			JOptionPane.showMessageDialog(null, "Eric big forehead omegalul");
+		}
+if(random==1) {
+	JOptionPane.showMessageDialog(null, "Timmy has a waifu");
+			
+		}
+if(random==2) {
+	JOptionPane.showMessageDialog(null, "Angel guerro is not nice");
+}
+if(random==3) {
+	JOptionPane.showMessageDialog(null, "the dark lord waits for us all to meet the fate of this doomed species");
+}
+if(random==4) {
+	JOptionPane.showMessageDialog(null, "Hard work will get you a reward");
+}
 		
 	}
 	
