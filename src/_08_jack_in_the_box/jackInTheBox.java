@@ -42,7 +42,13 @@ public class jackInTheBox implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		
+		for(int i = 0; i<10; i++) {
+		times++;
+		if(times==5) {
+			showPicture("jackInTheBox.png");
+			playSound("homer-woohoo.wav");
+		}
+		}
 		// TODO Auto-generated method stub
 		
 	}
